@@ -101,13 +101,13 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro" # Nome do pacote
-NAME = PACKAGE # Nome que será usado no pip install
-DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools" # Descrição do projeto
-AUTHOR = "Gabriel Galdino" #
-AUTHOR_EMAIL = "gabrielgaldinorhcp@gmail.com"
-URL = "https://github.com/GabrielGaldinoDev/libpythonpro"
-VERSION = __import__(PACKAGE).__version__ #Importa a versão do arquivo no __init__.py
+PACKAGE = "libpythonpro"  # Nome do pacote que será feito upload para o Pypi
+NAME = 'libpythonpro_3g'  # Nome que será usado no pip install
+DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"  # Descrição do projeto
+AUTHOR = "Gabriel Galdino"  # Autor do projeto
+AUTHOR_EMAIL = "gabrielgaldinorhcp@gmail.com"  # Email do autor
+URL = "https://github.com/GabrielGaldinoDev/libpythonpro"  # Url do projeto
+VERSION = __import__(PACKAGE).__version__  # Investiga a versão do pacote
 
 setup(
     name=NAME,
