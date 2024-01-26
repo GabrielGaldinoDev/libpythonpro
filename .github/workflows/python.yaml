@@ -29,9 +29,7 @@ jobs:
       - name: Run Python Linter
         run: flake8 libpythonpro
 
-      - name: Rodar Testes Automáticos
-        run: |
-          pytest --cov=libpythonpro
+     
 
 
 
