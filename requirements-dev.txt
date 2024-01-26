@@ -9,4 +9,8 @@ iniconfig
 packaging
 pluggy<2.0
 tomli==1.0.0
+
+#Converage
+coverage==7.4.0
+pytest-cov==4.1.0
 -r requirements.txt
