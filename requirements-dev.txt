@@ -11,6 +11,6 @@ pluggy<2.0
 tomli==1.0.0
 
 #Converage
-coverage==7.4.0
+coverage==7.4.1
 pytest-cov==4.1.0
 -r requirements.txt
